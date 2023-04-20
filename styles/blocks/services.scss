@@ -1,0 +1,35 @@
+.services {
+    padding: 90px 0;
+    background-color: $footer-bg-color;
+
+    @include onMobile1 {
+        padding: 60px 0;
+    }
+
+    &__content {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+
+    &__card {
+        flex: 1 1 0;
+        min-height: 315px;
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        line-height: 2;
+    }
+}

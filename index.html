@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    
+</head>
+<body>
+    
+<div class="header">
+    <div class="container">
+        <div class="header__nav">
+            <a href="#" class="header__logo logo">Kelvin</a>
+            <nav id="nav" class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Works</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <button id="nav-button" class="nav__button">
+                <!-- <svg id="nav-button-svg" class="nav__svg" width="33" height="20" viewBox="0 0 33 20"  xmlns="http://www.w3.org/2000/svg">
+                    <rect width="33" height="4" />
+                    <rect y="8" width="33" height="4"  />
+                    <rect y="16" width="33" height="4"  />
+                </svg> -->
+                <img id="nav-button-img" src="./images/icons/nav-open.svg" alt="" class="nav__image">
+
+
+                </button>
+            </nav>
+        </div>
+        <div class="header__content" >
+            <div class="header__description" data-aos="fade-up">
+                <h1 class="header__title">Kelvin Kramer <br> <span class="header__small-title">Designer & Developer</span> </h1>
+                <p class="header__text">I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+            </div>
+            <div class="header__img-container" data-aos="fade-left">
+                <picture>
+                    <source media="(max-width:799px)" srcset="./images/header/hero-mob.png">
+                    <img src="./images/header/hero.png" alt="" class="header__img">
+                </picture>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="main">
+    <section class="services">
+        <div class="container services__container">
+            <div class="services__content">
+                <div class="services__card" data-aos="fade-down">
+                    <img src="./images/services/browser 1.svg" alt="" class="services__img">
+                    <h3 class="services__title">UI/UX Design</h3>
+                    <p class="services__text">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services__card" data-aos="fade-down">
+                    <img src="./images/services/startup 1.svg" alt="" class="services__img">
+                    <h3 class="services__title">Development</h3>
+                    <p class="services__text">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services__card" data-aos="fade-down">
+                    <img src="./images/services/graphic 1.svg" alt="" class="services__img">
+                    <h3 class="services__title">software testing</h3>
+                    <p class="services__text">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container portfolio__container">
+            <h2 class="title portfolio__title">Portfolio</h2>
+            <div class="portfolio__project" data-aos="flip-up">
+                <picture>
+                    <!-- <source media="(max-width:700px)" srcset="./images/portfolio/woman-mobile.jpg"> -->
+                    <img src="./images/portfolio/woman.jpg" alt="" class="portfolio__img">
+                </picture>
+                
+                <a href="#" class="potfolio__link">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio__project" data-aos="flip-up">
+                <picture>
+                    <!-- <source media="(max-width:700px)" srcset="./images/portfolio/reebok_web-mobile.jpg"> -->
+                    <img src="./images/portfolio/reebok_web.jpg" alt="" class="portfolio__img">
+                </picture>
+                
+                <a href="#" class="potfolio__link">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio__project portfolio__project--last" data-aos="flip-up">
+                <picture>
+                    <!-- <source media="(max-width:700px)" srcset="./images/portfolio/braun-mobile.jpg"> -->
+                    <img src="./images/portfolio/braun.jpg" alt="" class="portfolio__img">
+                </picture>
+                
+                <a href="#" class="potfolio__link">Online fashion store - Homepage</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="contacts">
+    <div class="container footer__container">
+        <h2 class="contacts__title">
+            Contacts
+        </h2>
+        <div class="contacts__content" data-aos="fade-down">
+            <p class="contacts__text">
+                Want to know more or just chat? <br> You are welcome!
+            </p>
+            <a href="" class="button contacts__button">Send message</a>
+        </div>
+        <div class="contacts__socials" data-aos="zoom-in">
+            <a href="#" class="contacts__link">
+                <img src="./images/socials/LinkedIn.svg" alt="" class="contacts__img">
+            </a>
+            <a href="#" class="contacts__link">
+                <img src="./images/socials/Instargam.svg" alt="" class="contacts__img">
+            </a>
+            <a href="#" class="contacts__link">
+                <img src="./images/socials/Behance.svg" alt="" class="contacts__img">
+            </a>
+            <a href="#" class="contacts__link">
+                <img src="./images/socials/Dribble.svg" alt="" class="contacts__img">
+            </a>
+        </div>
+        <p class="contacts__footer" data-aos="fade-up">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

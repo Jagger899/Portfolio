@@ -1,0 +1,67 @@
+.header {
+    background-color: $main-bg-color;
+    padding-top: 46px;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 76px;
+
+        @include onMobile {
+            margin-bottom: 53px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        @include onMobile {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    &__description {
+        max-width: 500px;
+        margin-top: 124px;
+
+        @include onMobile {
+            margin-top: 0;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 44px;
+        margin-bottom: 20px;
+
+        @include onMobile1 {
+            font-size: 34px;
+        }
+    }
+
+    &__small-title {
+        font-weight: 600;
+        font-size: 44px;
+        margin-bottom: 20px;
+
+        @include onMobile1 {
+            font-size: 28px;
+        }
+    }
+
+    &__text {
+        line-height: 2;
+    }
+
+    &__img-container {
+        text-align: center;
+    }
+
+    
+}
